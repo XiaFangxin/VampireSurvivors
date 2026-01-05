@@ -1,0 +1,25 @@
+# CMake build directories
+/build*
+build-*/
+
+# CMake generated
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build.ninja
+
+# Qt auto-generated
+*_autogen/
+*.moc
+*.rcc
+
+# Qt Creator
+*.user
+*.user.*
+
+# Binaries
+*.exe
+
+
+# 备注：这是26年新加的，用于上传到GitHub时忽略一些不必要的文件。
